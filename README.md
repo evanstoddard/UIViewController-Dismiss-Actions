@@ -7,6 +7,8 @@ While using storyboards, it's easy to present and push view controllers, but the
 
 All you have to do is import the header file into the class you want to use it with OR import the category into your prefix header so it's accessibly throughout your project.
 
+`#import "UIViewController+Dismiss.h"'
+
 Then you can simply ctrl-click-drag your button to your class in xcode and choose from one of the four actions built in:
 
 `categoryDismissAnimated:` | This calls: `[self dismissViewControllerAnimated:YES completion:nil];`
