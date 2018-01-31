@@ -1,5 +1,5 @@
 //
-//  UIViewController+UIViewController_Dimsiss.h
+//  UIViewController+UIViewController_Dismiss.h
 //  StayWithIt
 //
 //  Created by Development on 6/29/16.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIViewController (UIViewController_Dimsiss)
+@interface UIViewController (UIViewController_Dismiss)
 
 @end
